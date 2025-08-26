@@ -1,1 +1,1 @@
-https://github.com/rkajiwara-japan/pardot-heroku.git
+<?php include_once("index.html"); ?>
