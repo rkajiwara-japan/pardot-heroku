@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form
+      action="http://go.rei-kaji.tech/l/1022141/2025-05-28/2k4xr6"
+      method="post"
+    >
+      <input
+        type="hidden"
+        name="captcha_settings"
+        value='{"keyname":"tttt","fallback":"true","orgId":"00DIU000003pnj2","ts":""}'
+      />
+      <input type="hidden" name="orgid" value="00DIU000003pnj2" />
+      <input type="hidden" name="retURL" value="http://tttt.com" />
+
+      <!--  ----------------------------------------------------------------------  -->
+      <!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
+      <!--  <input type="hidden" name="debug" value=1>                              -->
+      <!--  <input type="hidden" name="debugEmail"                                  -->
+      <!--  value="rkajiwara@salesforce.com">                                       -->
+      <!--  ----------------------------------------------------------------------  -->
+
+      <label for="name">取引先責任者名</label
+      ><input
+        id="name"
+        maxlength="80"
+        name="name"
+        size="20"
+        type="text"
+      /><br />
+
+      <label for="email">メール</label
+      ><input
+        id="email"
+        maxlength="80"
+        name="email"
+        size="20"
+        type="text"
+      /><br />
+
+      <label for="phone">電話</label
+      ><input
+        id="phone"
+        maxlength="40"
+        name="phone"
+        size="20"
+        type="text"
+      /><br />
+
+      <label for="subject">件名</label
+      ><input
+        id="subject"
+        maxlength="80"
+        name="subject"
+        size="20"
+        type="text"
+      /><br />
+
+      <label for="description">説明</label
+      ><textarea name="description"></textarea><br />
+
+      <input type="hidden" id="external" name="external" value="1" /><br />
+
+      <div class="g-recaptcha" data-sitekey="tttt"></div>
+      <br />
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
